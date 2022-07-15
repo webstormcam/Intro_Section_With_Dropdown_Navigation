@@ -2,3 +2,22 @@
     box-sizing: border-box;
     font-family: 'Epilogue', sans-serif;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2em;
+    padding: 0em 1em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
