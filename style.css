@@ -21,3 +21,42 @@ main {
     flex-direction: column;
     margin-top: 2em;
 }
+
+
+
+#main-words-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 2em;
+    padding: 0em 1em;
+}
+
+#main-words-button h1 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+    margin-bottom: 0.4em;
+}
+
+#main-words-button p {
+    color: #686868;
+    line-height: 26px;
+
+}
+
+#main-words-button a {
+    font-family: 'Epilogue';
+    font-weight: 700;
+    line-height: 26px;
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    padding: 0.8em 1.5em;
+    border-radius: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
