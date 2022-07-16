@@ -60,3 +60,16 @@ main {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
 }
+
+#websites {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+#websites img {
+    width: 18%;
+
+}
