@@ -23,7 +23,10 @@ main {
     margin-top: 2em;
 }
 
-
+#ham {
+    width: 32px;
+    height: 18px;
+}
 
 #main-words-button {
     display: flex;
