@@ -6,6 +6,7 @@
 body {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 header {
@@ -72,4 +73,68 @@ main {
 #websites img {
     width: 18%;
 
+}
+
+#mobile-menu {
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1.5em;
+    height: 100vh;
+    display: none;
+}
+
+#big_X {
+    width: 24px;
+    height: 24px;
+    align-self: flex-end;
+}
+
+#mini-nav {
+    margin-right: 8em;
+    margin-top: 1.5em;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+ul a {
+    font-family: 'Epilogue', sans-serif;
+    color: #686868;
+    text-decoration: none;
+}
+
+li p {
+
+    font-family: 'Epilogue', sans-serif;
+    color: #686868;
+    margin-right: 1em;
+
+}
+
+.drop-down {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-button {
+    display: block;
+    text-align: center;
+    align-self: center;
+    text-decoration: none;
+    color: #686868;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 14px;
+    margin-top: 1.5em;
+}
+
+.register {
+    border: 1px solid #686868;
+    width: 100%;
+    padding: 1em 2em;
+    border-radius: 1em;
 }

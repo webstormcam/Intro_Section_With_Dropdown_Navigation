@@ -1,18 +1,12 @@
 const ham = document.getElementById('ham')
+const big_X = document.getElementById('big_X')
+const mobile_Menu = document.getElementById('mobile-menu')
 
 
 ham.addEventListener("click", function(){
-  
-
-if(ham.getAttribute('src') ==='imgs/icon-menu.svg'){
-    ham.src='imgs/icon-close-menu.svg'
- 
-} else if(ham.getAttribute('src')==='imgs/icon-close-menu.svg'){
-    ham.src='imgs/icon-menu.svg'
-}
-    
-
-
- 
- 
+  mobile_Menu.style.display='flex'
 } );
+
+big_X.addEventListener("click", function(){
+    mobile_Menu.style.display='none'
+  } );
