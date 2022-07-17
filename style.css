@@ -26,6 +26,7 @@ main {
 #ham {
     width: 32px;
     height: 18px;
+    cursor: pointer;
 }
 
 #main-words-button {
@@ -84,7 +85,7 @@ main {
     right: 0;
     display: flex;
     flex-direction: column;
-    padding: 1.5em 1.5em;
+    padding: 1.5em 0.5em;
     height: 100vh;
     display: none;
 }
@@ -93,10 +94,12 @@ main {
     width: 24px;
     height: 24px;
     align-self: flex-end;
+    cursor: pointer;
 }
 
 #mini-nav {
-    margin-right: 8em;
+    margin-right: 6em;
+    margin-left: 1em;
     margin-top: 1.5em;
 }
 
@@ -140,4 +143,8 @@ li p {
     width: 100%;
     padding: 1em 2em;
     border-radius: 1em;
+    width: 195px;
+    margin-left: 1em;
+    margin-right: 1em;
+
 }
