@@ -12,6 +12,7 @@ ham.addEventListener("click", function(){
   mobile_Menu.classList.add('animate__fadeInRight')
   darken.style.display='block'
 darken.classList.add('animate__fadeIn')
+darken.style.zIndex='2'
 
 } );
 
@@ -20,8 +21,8 @@ big_X.addEventListener("click", function(){
   darken.classList.remove('animate__fadeIn')
   mobile_Menu.classList.add('animate__fadeOutRight')
   darken.classList.add('animate__fadeOut')
-  darken.style.display='none'
+  darken.style.zIndex='-1'
 
-    // mobile_Menu.style.display='none'
+    mobile_Menu.style.display='none'
     // darken.style.display='none'
   } );

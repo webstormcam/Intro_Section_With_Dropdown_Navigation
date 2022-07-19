@@ -3,12 +3,18 @@
     font-family: 'Epilogue', sans-serif;
 }
 
+html {
+    overflow: hidden;
+}
+
 
 
 body {
     display: flex;
     flex-direction: column;
     position: relative;
+    padding-bottom: 10em;
+    overflow: hidden;
 
 }
 
@@ -92,6 +98,7 @@ main {
     height: 100vh;
     display: none;
     overflow: hidden;
+    z-index: 7;
 }
 
 #big_X {
@@ -159,4 +166,5 @@ li p {
     height: 100vh;
     background-color: rgba(7, 4, 3, 0.753);
     display: none;
+
 }
