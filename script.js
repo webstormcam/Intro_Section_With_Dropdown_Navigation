@@ -26,7 +26,7 @@ big_X.addEventListener("click", function(){
 
   setTimeout(() => {
     noDark()
-  }, 680);
+  }, 700);
     
   } );
 
