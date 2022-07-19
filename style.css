@@ -3,10 +3,13 @@
     font-family: 'Epilogue', sans-serif;
 }
 
+
+
 body {
     display: flex;
     flex-direction: column;
     position: relative;
+
 }
 
 header {
@@ -88,6 +91,7 @@ main {
     padding: 1.5em 0.5em;
     height: 100vh;
     display: none;
+    overflow: hidden;
 }
 
 #big_X {
