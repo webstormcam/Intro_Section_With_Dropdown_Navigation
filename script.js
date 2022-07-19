@@ -24,5 +24,13 @@ big_X.addEventListener("click", function(){
   darken.classList.add('animate__fadeOut')
   
 
-    // darken.style.display='none'
+  setTimeout(() => {
+    noDark()
+  }, 680);
+    
   } );
+
+
+  function noDark(){
+    darken.style.display='none'
+  }

@@ -36,6 +36,7 @@ main {
     width: 32px;
     height: 18px;
     cursor: pointer;
+    /* z-index: 500; */
 }
 
 #main-words-button {
