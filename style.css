@@ -169,3 +169,8 @@ li p {
     display: none;
 
 }
+
+.drop-picked {
+    transform: rotate(180deg);
+
+}
