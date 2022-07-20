@@ -187,3 +187,7 @@ li p {
     transform: rotate(180deg);
 
 }
+
+#cat {
+    display: none;
+}

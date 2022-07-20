@@ -3,6 +3,7 @@ const big_X = document.getElementById('big_X')
 const mobile_Menu = document.getElementById('mobile-menu')
 const darken = document.getElementById('darken-background')
 let miniDrop = document.querySelectorAll('.drop-down');
+let cat = document.getElementById('cat');
 
 
 ham.addEventListener("click", function(){
@@ -44,17 +45,23 @@ big_X.addEventListener("click", function(){
         let el = e.currentTarget;
       if( el.children[1].classList.contains('drop-picked')){
             el.children[1].classList.remove('drop-picked');
-            // miniMenus[i].children[1].classList.remove('appear');
+            cat.style.display='none';
+          
+            console.log('hello')
+           
+          
             
         } else{
-            el.children[1].classList.add('drop-picked')
-            // miniMenus[i].children[1].classList.add('appear');
+            el.children[1].classList.add('drop-picked');
+            cat.style.display='block';
+          
+           
            
         }
         for(let q=0;q<miniDrop.length;q++){
             if(miniDrop[q]!==el){
               miniDrop[q].children[1].classList.remove('drop-picked');
-              // miniMenus[q].children[1].classList.remove('appear')
+             
             }
         }
 
