@@ -40,41 +40,49 @@ big_X.addEventListener("click", function(){
 
 
 
-  for(let i=0;i<miniDrop.length;i++){
-    miniDrop[i].addEventListener('click', handleClick);
-    function handleClick(e){
-        let el = e.currentTarget;
-      if( el.children[1].classList.contains('drop-picked')){
-            el.children[1].classList.remove('drop-picked');
-            miniMenus[i].classList.remove('appear');
+//   for(let i=0;i<miniDrop.length;i++){
+//     miniDrop[i].addEventListener('click', handleClick);
+//     function handleClick(e){
+//         let el = e.currentTarget;
+//       if( el.children[1].classList.contains('drop-picked')){
+//             el.children[1].classList.remove('drop-picked');
+//             miniMenus[i].classList.remove('appear');
          
           
-            console.log('hello')
+//             console.log('hello')
            
           
             
-        } else{
-            el.children[1].classList.add('drop-picked');
-            miniMenus[i].classList.add('appear');
+//         } else{
+//             el.children[1].classList.add('drop-picked');
+//             miniMenus[i].classList.add('appear');
           
           
            
            
-        }
-        for(let q=0;q<miniDrop.length;q++){
-            if(miniDrop[q]!==el){
-              miniDrop[q].children[1].classList.remove('drop-picked');
-              miniMenus[q].classList.remove('appear')
+//         }
+//         for(let q=0;q<miniDrop.length;q++){
+//             if(miniDrop[q]!==el){
+//               miniDrop[q].children[1].classList.remove('drop-picked');
+//               miniMenus[q].classList.remove('appear')
              
-            }
-        }
+//             }
+//         }
 
 
 
-    }
+//     }
         
      
      
 
     
+// }
+
+for(let i=0;i<miniDrop.length;i++){
+  miniDrop[i].addEventListener('click',handleClick);
+function handleClick(e){
+
+ miniMenus[1].style.display='block'
+}
 }
