@@ -2,8 +2,9 @@ const ham = document.getElementById('ham')
 const big_X = document.getElementById('big_X')
 const mobile_Menu = document.getElementById('mobile-menu')
 const darken = document.getElementById('darken-background')
-let miniDrop = document.querySelectorAll('.drop-down');
-let cat = document.getElementById('cat');
+let miniDrop = document.querySelectorAll('.clickable');
+let miniMenus = document.querySelectorAll('.small-drop-down');
+
 
 
 ham.addEventListener("click", function(){
@@ -45,7 +46,8 @@ big_X.addEventListener("click", function(){
         let el = e.currentTarget;
       if( el.children[1].classList.contains('drop-picked')){
             el.children[1].classList.remove('drop-picked');
-            cat.style.display='none';
+            miniMenus[i].classList.remove('appear');
+         
           
             console.log('hello')
            
@@ -53,7 +55,8 @@ big_X.addEventListener("click", function(){
             
         } else{
             el.children[1].classList.add('drop-picked');
-            cat.style.display='block';
+            miniMenus[i].classList.add('appear');
+          
           
            
            
@@ -61,6 +64,7 @@ big_X.addEventListener("click", function(){
         for(let q=0;q<miniDrop.length;q++){
             if(miniDrop[q]!==el){
               miniDrop[q].children[1].classList.remove('drop-picked');
+              miniMenus[q].classList.remove('appear')
              
             }
         }

@@ -188,6 +188,15 @@ li p {
 
 }
 
-#cat {
+.clickable {
+    display: flex;
+    align-items: center;
+}
+
+.small-drop-down {
     display: none;
+}
+
+.appear {
+    display: block;
 }
