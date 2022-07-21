@@ -148,7 +148,7 @@ li p {
 
 .drop-down {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
 
