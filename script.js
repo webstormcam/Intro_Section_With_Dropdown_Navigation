@@ -56,12 +56,7 @@ big_X.addEventListener("click", function(){
            
            
         }
-        // for(let q=0;q<miniDrop.length;q++){
-        //     if(miniDrop[q]!==el){
-        //       miniDrop[q].children[1].classList.remove('drop-picked');
-        //       miniMenus[i].style.display='none';
-             
-        //     }
+      
         
 
 
