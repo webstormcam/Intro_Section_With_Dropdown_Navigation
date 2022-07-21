@@ -47,6 +47,7 @@ big_X.addEventListener("click", function(){
       if( miniMenus[i].style.display==='block'){
             el.children[1].classList.remove('drop-picked');
             miniMenus[i].style.display='none';
+            console.log(test)
            
            } else{
             el.children[1].classList.add('drop-picked');
