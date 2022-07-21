@@ -37,37 +37,28 @@ big_X.addEventListener("click", function(){
   function noDark(){
     darken.style.display='none'
   }
+for(let i=0; i<miniDrop.length;i++){
 
-
-
-  for(let i=0;i<miniDrop.length;i++){
-    miniDrop[i].addEventListener('click', handleClick);
-    function handleClick(e){
-        let el = miniDrop[i];
-      if( miniMenus[i].style.display==='block'){
-            el.children[1].classList.remove('drop-picked');
-            miniMenus[i].style.display='none';
-           
-           
-           } else{
-            el.children[1].classList.add('drop-picked');
-            miniMenus[i].style.display='block';
-            console.log('dabby')
-          
-          
-           
-           
-        }
-      
-        
-
-
-
+  miniDrop[i].addEventListener('click',function(){
+    for(let q=0;q<miniDrop.length;q++){
+      miniDrop[q].children[1].classList.remove('drop-picked');
+      console.log('removed')
+   
+      if(miniDrop[i]===miniDrop[0]){
+       miniDrop[0].children[1].classList.add('drop-picked');
+      } else if(miniDrop[i]===miniDrop[1]){
+       miniDrop[1].children[1].classList.add('drop-picked');
+      }
     }
-        
-     
-     
+   
+
   
+
     
+
+
+  })
 }
+  
+
 
