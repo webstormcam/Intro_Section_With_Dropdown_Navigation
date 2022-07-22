@@ -38,34 +38,8 @@ big_X.addEventListener("click", function(){
     darken.style.display='none'
   }
 
-
-
-  for(let i=0;i<miniDrop.length;i++){
-    miniDrop[i].addEventListener('click', handleClick);
-    function handleClick(e){
-        let el = e.currentTarget;
-      if( miniMenus[i].style.display==='block'){
-            el.children[1].classList.remove('drop-picked');
-            miniMenus[i].style.display='none';
-           
-           } else{
-            el.children[1].classList.add('drop-picked');
-            miniMenus[i].style.display='block';
-          
-          
-           
-           
-        }
-      
-        
-
-
-
-    }
-        
-     
-     
   
-    
-}
+  
+
+  
 
