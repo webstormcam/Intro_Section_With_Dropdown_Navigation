@@ -200,6 +200,7 @@ li p {
 
 .feature_drop {
     display: none;
+    padding-left: 2em;
 }
 
 .company_drop {
@@ -213,4 +214,21 @@ li p {
 .appear {
     display: block;
     flex-direction: column;
+}
+
+.top-company-li {
+    margin-top: 1.5em;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+
+}
+
+.option-icons {
+    width: 17.5px;
+    height: 20px;
+    margin-right: 0.5em;
 }
