@@ -188,9 +188,18 @@ li p {
 
 }
 
-.clickable {
+#features {
     display: flex;
     align-items: center;
+}
+
+#company {
+    display: flex;
+    align-items: center;
+}
+
+.feature_drop {
+    display: none;
 }
 
 .small-drop-down {
@@ -199,4 +208,5 @@ li p {
 
 .appear {
     display: block;
+    flex-direction: column;
 }

@@ -2,8 +2,9 @@ const ham = document.getElementById('ham')
 const big_X = document.getElementById('big_X')
 const mobile_Menu = document.getElementById('mobile-menu')
 const darken = document.getElementById('darken-background')
-let miniDrop = document.querySelectorAll('.clickable');
 let miniMenus = document.querySelectorAll('.small-drop-down');
+const features = document.getElementById('features');
+const feature_drop = document.querySelector('.feature_drop')
 
 
 
@@ -38,6 +39,14 @@ big_X.addEventListener("click", function(){
     darken.style.display='none'
   }
 
+
+features.addEventListener('click',function(){
+  features.children[1].classList.toggle('drop-picked');
+  feature_drop.classList.toggle('appear');
+
+
+
+})
 
   
 
