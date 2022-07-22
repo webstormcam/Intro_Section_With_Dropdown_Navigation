@@ -4,7 +4,9 @@ const mobile_Menu = document.getElementById('mobile-menu')
 const darken = document.getElementById('darken-background')
 let miniMenus = document.querySelectorAll('.small-drop-down');
 const features = document.getElementById('features');
+const company = document.getElementById('company')
 const feature_drop = document.querySelector('.feature_drop')
+const company_drop = document.querySelector('.company_drop')
 
 
 
@@ -43,6 +45,15 @@ big_X.addEventListener("click", function(){
 features.addEventListener('click',function(){
   features.children[1].classList.toggle('drop-picked');
   feature_drop.classList.toggle('appear');
+
+
+
+})
+
+
+company.addEventListener('click',function(){
+  company.children[1].classList.toggle('drop-picked');
+  company_drop.classList.toggle('appear');
 
 
 
