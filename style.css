@@ -36,7 +36,7 @@ main {
     display: flex;
     flex-direction: column;
     margin-top: 2em;
-    margin-bottom: 7rem;
+    margin-bottom: 5em;
 
 
 
@@ -231,4 +231,55 @@ li p {
     width: 17.5px;
     height: 20px;
     margin-right: 0.5em;
+}
+
+#desktop-login {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    main {
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 2em;
+        margin-bottom: 10em;
+    }
+
+    header {
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+}
+
+
+@media screen and (min-width:1024px) {
+    header {
+        width: 95%;
+        max-width: 1110px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    #ham {
+        display: none;
+    }
+
+    .menu-button {
+
+        margin-top: 0em;
+    }
+
+    .register {
+        width: 104px;
+        height: 42px;
+        margin-right: 0em;
+        padding: 1em 0em;
+    }
+
+    #desktop-login {
+        display: flex;
+    }
 }
