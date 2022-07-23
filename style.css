@@ -200,7 +200,8 @@ li p {
 
 .feature_drop {
     display: none;
-    padding-left: 2em;
+    position: relative;
+    left: 2em;
 }
 
 .company_drop {
