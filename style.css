@@ -237,6 +237,10 @@ li p {
     display: none;
 }
 
+#large-drop-down {
+    display: none;
+}
+
 @media screen and (min-width:768px) {
     main {
         width: 70%;
@@ -264,7 +268,7 @@ li p {
     }
 
     #ham {
-        display: none;
+        display: none !important;
     }
 
     .menu-button {
@@ -280,6 +284,21 @@ li p {
     }
 
     #desktop-login {
+        display: flex;
+    }
+
+    #large-drop-down {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #left-side {
+        display: flex;
+
+
+    }
+
+    #left-side ul {
         display: flex;
     }
 }
