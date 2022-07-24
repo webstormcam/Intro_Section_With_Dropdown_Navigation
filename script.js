@@ -7,6 +7,10 @@ const features = document.querySelector('.features');
 const company = document.querySelector('.company')
 const feature_drop = document.querySelector('.feature_drop')
 const company_drop = document.querySelector('.company_drop')
+const features2 = document.querySelector('.features2');
+const company2 = document.querySelector('.company2')
+const feature_drop2 = document.querySelector('.feature_drop2')
+const company_drop2 = document.querySelector('.company_drop2')
 
 
 
@@ -54,6 +58,24 @@ features.addEventListener('click',function(){
 company.addEventListener('click',function(){
   company.children[1].classList.toggle('drop-picked');
   company_drop.classList.toggle('appear');
+
+
+
+})
+
+
+features2.addEventListener('click',function(){
+  features2.children[1].classList.toggle('drop-picked');
+  feature_drop2.classList.toggle('appear');
+
+
+
+})
+
+
+company2.addEventListener('click',function(){
+  company2.children[1].classList.toggle('drop-picked');
+  company_drop2.classList.toggle('appear');
 
 
 

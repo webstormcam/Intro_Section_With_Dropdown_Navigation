@@ -242,6 +242,10 @@ li p {
     display: none;
 }
 
+#large-nav {
+    display: none;
+}
+
 @media screen and (min-width:768px) {
     main {
         width: 70%;
@@ -262,10 +266,14 @@ li p {
 @media screen and (min-width:1024px) {
     header {
         width: 95%;
-        max-width: 1110px;
+        max-width: 1330px;
         display: flex;
         align-items: center;
 
+    }
+
+    li {
+        margin-bottom: 0em;
     }
 
     #ham {
@@ -291,15 +299,56 @@ li p {
     #large-drop-down {
         display: flex;
         flex-direction: row;
+
     }
 
     #left-side {
         display: flex;
+        align-items: center;
 
 
     }
 
-    #left-side ul {
+    #mobile-menu,
+    #darken-background {
+        display: none !important;
+    }
+
+    #large-nav {
         display: flex;
+        align-items: center;
+        margin-left: 2em;
+    }
+
+    .feature_drop2 {
+        display: none;
+    }
+
+    .company_drop2 {
+        display: none;
+    }
+
+
+
+    .features2 {
+        display: flex;
+        align-items: center;
+    }
+
+    .company2 {
+        display: flex;
+        align-items: center;
+    }
+
+    .nested-nav {
+        display: flex;
+    }
+
+    .drop-down {
+        margin-left: 1em;
+    }
+
+    li a {
+        margin-left: 2em;
     }
 }
