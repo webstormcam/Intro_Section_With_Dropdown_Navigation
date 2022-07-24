@@ -246,6 +246,10 @@ li p {
     display: none;
 }
 
+.man-on-comp-comp {
+    display: none;
+}
+
 @media screen and (min-width:768px) {
     main {
         width: 70%;
@@ -325,12 +329,14 @@ li p {
         position: absolute;
         top: 3.5em;
 
+
     }
 
     .company_drop2 {
         display: none;
         position: absolute;
         top: 3.5em;
+
 
     }
 
@@ -339,11 +345,13 @@ li p {
     .features2 {
         display: flex;
         align-items: center;
+        cursor: pointer;
     }
 
     .company2 {
         display: flex;
         align-items: center;
+        cursor: pointer;
 
     }
 
@@ -364,5 +372,31 @@ li p {
     .appear {
         display: block;
         flex-direction: column;
+    }
+
+    main {
+        flex-direction: row;
+        max-width: 1300px;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .man-on-comp-mobile {
+        display: none;
+    }
+
+    .man-on-comp-comp {
+        display: block;
+        order: 5;
+        width: 40%;
+    }
+
+    #main-words-button {
+        width: 40%;
+
+    }
+
+    .register {
+        margin-left: 2.5em;
     }
 }
