@@ -474,6 +474,11 @@ li p {
         padding-right: 7em;
     }
 
+    #main-words-button {
+        position: relative;
+        left: 4em;
+    }
+
     #websites {
         width: 500px;
     }
