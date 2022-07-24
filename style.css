@@ -388,15 +388,38 @@ li p {
     .man-on-comp-comp {
         display: block;
         order: 5;
-        width: 40%;
+        width: 45%;
     }
 
     #main-words-button {
-        width: 40%;
+        width: 45%;
 
     }
 
     .register {
         margin-left: 2.5em;
     }
+
+    #main-words-button {
+        text-align: left;
+        padding: 0em 0em;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+
+    #main-words-button h1 {
+        font-size: 70px;
+        margin-bottom: 0em;
+        line-height: 80px;
+    }
+
+    #main-words-button a {
+        margin-top: 0em;
+    }
+
+    #websites {
+        margin: 0em 0em;
+    }
 }
+
+@media screen and (min-width:1440px) {}
