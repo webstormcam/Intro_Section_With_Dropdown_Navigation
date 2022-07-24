@@ -442,6 +442,17 @@ li p {
 }
 
 @media screen and (min-width:1440px) {
+
+    header {
+        width: 98%;
+        max-width: 1440px;
+        display: flex;
+        align-items: center;
+
+    }
+
+
+
     #main-words-button h1 {
         font-size: 80px;
         padding-right: 0.7em;
@@ -454,7 +465,7 @@ li p {
     main {
         flex-direction: row;
         max-width: 1300px;
-        justify-content: space-evenly;
+        justify-content: space-between;
         width: 100%;
     }
 
@@ -466,4 +477,6 @@ li p {
     #websites {
         width: 500px;
     }
+
+
 }
