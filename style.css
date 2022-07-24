@@ -441,6 +441,14 @@ li p {
     }
 }
 
+
+
+@media screen and (min-width:1200px) {
+    main {
+        justify-content: space-between;
+    }
+}
+
 @media screen and (min-width:1440px) {
 
     header {
