@@ -431,12 +431,21 @@ li p {
         margin: 0em 0em;
 
     }
+
+    #websites {
+        width: 400px;
+    }
+
+    #websites img {
+        width: 20%;
+    }
 }
 
 @media screen and (min-width:1440px) {
     #main-words-button h1 {
         font-size: 80px;
         padding-right: 0.7em;
+        margin-top: 1.5em;
 
 
     }
@@ -448,7 +457,12 @@ li p {
         width: 100%;
     }
 
+
     #main-words-button p {
         padding-right: 7em;
+    }
+
+    #websites {
+        width: 500px;
     }
 }
