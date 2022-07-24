@@ -322,10 +322,16 @@ li p {
 
     .feature_drop2 {
         display: none;
+        position: absolute;
+        top: 3.5em;
+
     }
 
     .company_drop2 {
         display: none;
+        position: absolute;
+        top: 3.5em;
+
     }
 
 
@@ -338,17 +344,25 @@ li p {
     .company2 {
         display: flex;
         align-items: center;
+
     }
 
     .nested-nav {
         display: flex;
+
     }
 
     .drop-down {
         margin-left: 1em;
+
     }
 
     li a {
         margin-left: 2em;
+    }
+
+    .appear {
+        display: block;
+        flex-direction: column;
     }
 }
