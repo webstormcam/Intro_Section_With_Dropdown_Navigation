@@ -36,7 +36,7 @@ main {
     display: flex;
     flex-direction: column;
     margin-top: 2em;
-    margin-bottom: 5em;
+    margin-bottom: 15em;
 
 
 
@@ -81,7 +81,7 @@ main {
     text-decoration: none;
     background-color: black;
     color: #fff;
-    padding: 0.8em 1.5em;
+    padding: 1em 2em;
     border-radius: 1em;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
@@ -92,7 +92,7 @@ main {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-top: 1.5em;
+    margin-top: 2.5em;
     margin-bottom: 4rem;
 }
 
@@ -250,6 +250,10 @@ li p {
     display: none;
 }
 
+#main-words-button p {
+    margin-bottom: 2em;
+}
+
 @media screen and (min-width:768px) {
     main {
         width: 70%;
@@ -376,8 +380,8 @@ li p {
 
     main {
         flex-direction: row;
-        max-width: 1300px;
-        justify-content: space-around;
+        max-width: 1024px;
+        justify-content: space-evenly;
         width: 100%;
     }
 
@@ -389,10 +393,12 @@ li p {
         display: block;
         order: 5;
         width: 45%;
+        padding: 1em;
     }
 
     #main-words-button {
         width: 45%;
+        padding: 1em;
 
     }
 
@@ -403,23 +409,46 @@ li p {
     #main-words-button {
         text-align: left;
         padding: 0em 0em;
+        justify-content: space-between;
         align-items: flex-start;
-        justify-content: space-evenly;
     }
 
     #main-words-button h1 {
         font-size: 70px;
-        margin-bottom: 0em;
+        margin-bottom: 0.5em;
         line-height: 80px;
+        margin-top: 1em;
+
     }
 
-    #main-words-button a {
-        margin-top: 0em;
+    #main-words-button p {
+        margin-bottom: 4em;
+        font-size: 18px;
+        line-height: 28px;
     }
 
     #websites {
         margin: 0em 0em;
+
     }
 }
 
-@media screen and (min-width:1440px) {}
+@media screen and (min-width:1440px) {
+    #main-words-button h1 {
+        font-size: 80px;
+        padding-right: 0.7em;
+
+
+    }
+
+    main {
+        flex-direction: row;
+        max-width: 1300px;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    #main-words-button p {
+        padding-right: 7em;
+    }
+}
