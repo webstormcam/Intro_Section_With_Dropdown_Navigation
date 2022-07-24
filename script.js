@@ -3,8 +3,8 @@ const big_X = document.getElementById('big_X')
 const mobile_Menu = document.getElementById('mobile-menu')
 const darken = document.getElementById('darken-background')
 let miniMenus = document.querySelectorAll('.small-drop-down');
-const features = document.getElementById('features');
-const company = document.getElementById('company')
+const features = document.querySelector('.features');
+const company = document.querySelector('.company')
 const feature_drop = document.querySelector('.feature_drop')
 const company_drop = document.querySelector('.company_drop')
 

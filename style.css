@@ -188,12 +188,12 @@ li p {
 
 }
 
-#features {
+.features {
     display: flex;
     align-items: center;
 }
 
-#company {
+.company {
     display: flex;
     align-items: center;
 }
