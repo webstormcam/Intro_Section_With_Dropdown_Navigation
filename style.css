@@ -464,7 +464,7 @@ li p {
     #main-words-button h1 {
         font-size: 80px;
         padding-right: 0.7em;
-        margin-top: 1.5em;
+        margin-top: 1.2em;
         margin-bottom: 0.8em;
 
 
@@ -489,6 +489,11 @@ li p {
 
     #websites {
         width: 500px;
+    }
+
+    .man-on-comp-comp {
+        object-fit: contain;
+        height: 640px;
     }
 
 
