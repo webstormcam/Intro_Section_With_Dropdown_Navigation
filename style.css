@@ -142,7 +142,7 @@ li p {
 
     font-family: 'Epilogue', sans-serif;
     color: #686868;
-    margin-right: 1em;
+    margin-right: 0.5em;
 
 }
 
@@ -356,6 +356,7 @@ li p {
         display: flex;
         align-items: center;
         cursor: pointer;
+        margin-left: 1em;
 
     }
 
@@ -439,6 +440,22 @@ li p {
     #websites img {
         width: 20%;
     }
+
+    li a {
+        margin-left: 0.5em;
+    }
+
+    .company-links {
+        margin-bottom: 1em;
+    }
+
+    .top-nav {
+        margin-right: 1em;
+    }
+
+    .about {
+        margin-left: 1em;
+    }
 }
 
 
@@ -495,6 +512,12 @@ li p {
         object-fit: contain;
         height: 640px;
     }
+
+    li a {
+        margin-left: 0.5em;
+    }
+
+
 
 
 }
