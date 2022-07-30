@@ -65,6 +65,7 @@ company.addEventListener('click',function(){
 
 
 features2.addEventListener('click',function(){
+  features2.children[0].classList.toggle('drop-dark')
   features2.children[1].classList.toggle('drop-picked');
   feature_drop2.classList.toggle('appear');
 
@@ -74,6 +75,7 @@ features2.addEventListener('click',function(){
 
 
 company2.addEventListener('click',function(){
+  company2.children[0].classList.toggle('drop-dark')
   company2.children[1].classList.toggle('drop-picked');
   company_drop2.classList.toggle('appear');
 

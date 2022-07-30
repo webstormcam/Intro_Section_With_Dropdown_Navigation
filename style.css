@@ -74,7 +74,7 @@ main {
 
 }
 
-#main-words-button a {
+.learn {
     font-family: 'Epilogue';
     font-weight: 700;
     line-height: 26px;
@@ -144,6 +144,11 @@ li p {
     color: #686868;
     margin-right: 0.5em;
 
+}
+
+
+.drop-dark {
+    color: black;
 }
 
 .drop-down {
@@ -252,6 +257,30 @@ li p {
 
 #main-words-button p {
     margin-bottom: 2em;
+}
+
+.learn:hover {
+    background-color: #fff;
+    border: 1px solid black;
+    color: black;
+}
+
+.register:hover {
+    border-color: black;
+    color: black;
+}
+
+.careers-text:hover {
+    color: black;
+}
+
+.about-text:hover {
+    color: black;
+}
+
+.login:hover {
+
+    color: black;
 }
 
 @media screen and (min-width:768px) {
