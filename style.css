@@ -151,6 +151,14 @@ li p {
     color: black;
 }
 
+.company-text:hover {
+    color: black;
+}
+
+.feature-text:hover {
+    color: black;
+}
+
 .drop-down {
     display: flex;
     flex-direction: column;
