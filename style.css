@@ -560,8 +560,7 @@ li p {
     }
 
     #main-words-button {
-        position: relative;
-        left: 4em;
+        margin-left: 5em;
 
     }
 
