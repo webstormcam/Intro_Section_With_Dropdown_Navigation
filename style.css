@@ -277,6 +277,7 @@ li p {
         max-width: 1330px;
         display: flex;
         align-items: center;
+        position: relative;
 
     }
 
@@ -332,6 +333,13 @@ li p {
         display: none;
         position: absolute;
         top: 3.5em;
+        -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.44);
+        box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.44);
+        padding: 1em;
+        border-radius: 1em;
+        left: 6em;
+        z-index: 1000;
+
 
 
     }
@@ -340,6 +348,13 @@ li p {
         display: none;
         position: absolute;
         top: 3.5em;
+        -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.44);
+        box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.44);
+        padding: 1em;
+        border-radius: 1em;
+        left: 17em;
+        z-index: 1000;
+
 
 
     }
@@ -419,6 +434,7 @@ li p {
         margin-bottom: 0.5em;
         line-height: 80px;
         margin-top: 1em;
+        z-index: 1;
 
     }
 
