@@ -561,6 +561,7 @@ li p {
     #main-words-button {
         position: relative;
         left: 4em;
+        z-index: -1;
     }
 
     #websites {
