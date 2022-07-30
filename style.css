@@ -338,7 +338,7 @@ li p {
         padding: 1em;
         border-radius: 1em;
         left: 6em;
-        z-index: 1000;
+        background-color: #fff;
 
 
 
@@ -353,7 +353,8 @@ li p {
         padding: 1em;
         border-radius: 1em;
         left: 17em;
-        z-index: 1000;
+        background-color: #fff;
+
 
 
 
@@ -436,6 +437,10 @@ li p {
         margin-top: 1em;
         z-index: 1;
 
+    }
+
+    h1 {
+        z-index: 4;
     }
 
     #main-words-button p {
